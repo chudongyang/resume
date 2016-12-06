@@ -759,6 +759,16 @@ html,body,.main{
     -webkit-animation: fadeOutUp 1.2s infinite both;
     animation: fadeOutUp 1.2s infinite both;
 }
+@-webkit-keyframes move {
+    0%{
+        -webkit-transform: scale(0,0);
+        transform: scale(0,0);
+    }
+    100%{
+        -webkit-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+}
 @keyframes move {
     0%{
         -webkit-transform: scale(0,0);
@@ -769,6 +779,16 @@ html,body,.main{
         transform: scale(1,1);
     }
 }
+@-webkit-keyframes move1 {
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
 @keyframes move1 {
     0%{
         -webkit-transform: rotate(0deg);
@@ -777,6 +797,24 @@ html,body,.main{
     100%{
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes move2 {
+    0%, 100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    10%, 20% {
+        -webkit-transform: scale(.9) rotate(3deg);
+        transform: scale(.9) rotate(3deg);
+    }
+    30%, 50%, 70%, 90% {
+        -webkit-transform: scale(1.1) rotate(3deg);
+        transform: scale(1.1) rotate(3deg);
+    }
+    40%, 60%, 80% {
+        -webkit-transform: scale(1.1) rotate(-3deg);
+        transform: scale(1.1) rotate(-3deg);
     }
 }
 
@@ -796,6 +834,16 @@ html,body,.main{
     40%, 60%, 80% {
         -webkit-transform: scale(1.1) rotate(-3deg);
         transform: scale(1.1) rotate(-3deg);
+    }
+}
+@-webkit-keyframes move3 {
+    0%{
+        -webkit-transform: scale(0,0);
+        transform: scale(0,0);
+    }
+    100%{
+        -webkit-transform: scale(1,1);
+        transform: scale(1,1);
     }
 }
 @keyframes move3 {
