@@ -179,43 +179,43 @@ html,body,.main{
     animation: fadeInUp 1s 0.3s 1 both;
 }
 #page2 .info span:nth-child(1){
-    -webkit-animation: fadeInLeft 0.8s 2s linear 1 both;
+    -webkit-animation: fadeInLeft 1s 0.8s linear 1 both;
     animation: fadeInLeft 1s 0.8s linear 1 both;
 }
 #page2 .info span:nth-child(2){
-    -webkit-animation: fadeInLeft 0.8s 2s linear 1 both;
+    -webkit-animation: fadeInLeft 0.8s 1.3s linear 1 both;
     animation: fadeInLeft 0.8s 1.3s linear 1 both;
 }
 #page2 .info span:nth-child(3){
-    -webkit-animation: fadeInLeft 0.8s 2s linear 1 both;
+    -webkit-animation: fadeInLeft 0.8s 1.6s linear 1 both;
     animation: fadeInLeft 0.8s 1.6s linear 1 both;
 }
 #page2 .info span:nth-child(4){
-    -webkit-animation: fadeInLeft 0.8s 2s linear 1 both;
+    -webkit-animation: fadeInLeft 0.8s 1.9s linear 1 both;
     animation: fadeInLeft 0.8s 1.9s linear 1 both;
 }
 #page2 .info span:nth-child(5){
-    -webkit-animation: fadeInLeft 0.8s 2s linear 1 both;
+    -webkit-animation: fadeInLeft 0.8s 2.2s linear 1 both;
     animation: fadeInLeft 0.8s 2.2s linear 1 both;
 }
 #page2 .info p:nth-of-type(1){
-    -webkit-animation: fadeInRight 1s 2s 1 both;
+    -webkit-animation: fadeInRight 1s 1s 1 both;
     animation: fadeInRight 1s 1s 1 both;
 }
 #page2 .info p:nth-of-type(2){
-    -webkit-animation: fadeInRight 1s 2s 1 both;
+    -webkit-animation: fadeInRight 1s 1.3s 1 both;
     animation: fadeInRight 1s 1.3s 1 both;
 }
 #page2 .info p:nth-of-type(3){
-    -webkit-animation: fadeInRight 1s 2s 1 both;
+    -webkit-animation: fadeInRight 1s 1.6s 1 both;
     animation: fadeInRight 1s 1.6s 1 both;
 }
 #page2 .info p:nth-of-type(4){
-    -webkit-animation: fadeInRight 1s 2s 1 both;
+    -webkit-animation: fadeInRight 1s 1.9s 1 both;
     animation: fadeInRight 1s 1.9s 1 both;
 }
 #page2 .info p:nth-of-type(5){
-    -webkit-animation: fadeInRight 1s 2s 1 both;
+    -webkit-animation: fadeInRight 1s 2.2s 1 both;
     animation: fadeInRight 1s 2.2s 1 both;
 }
 /*第三页*/
@@ -277,11 +277,12 @@ html,body,.main{
 }
 .slide3 p:nth-of-type(1),.slide3 p:nth-of-type(3),.slide3 p:nth-of-type(5),.slide3 p:nth-of-type(7){
     font-size: 0.28rem;
-    color: #FFFFFF;
+
 }
 .slide3 p:nth-of-type(1){
     left: 1.12rem;
-    top: 0.87rem;
+    top: 0.82rem;
+    color: #FFFFFF;
 }
 .slide3 div:nth-of-type(5),.slide3 div:nth-of-type(7),.slide3 div:nth-of-type(9),.slide3 div:nth-of-type(11){
     height: 5px;
@@ -296,11 +297,11 @@ html,body,.main{
     position: absolute;
     font-weight: bold;
     font-size: 0.2rem;
-    color: #F7B487;
 }
 .slide3 h3:nth-of-type(1) {
     left: 1.64rem;
     top: 0.74rem;
+    color: #F7B487;
 }
 .slide3 p:nth-of-type(2),.slide3 p:nth-of-type(4),.slide3 p:nth-of-type(6),.slide3 p:nth-of-type(8){
     width: 1.8rem;
@@ -317,7 +318,8 @@ html,body,.main{
 }
 .slide3 p:nth-of-type(3){
     left: 0.81rem;
-    top: 2.03rem;
+    top: 2.02rem;
+    color: #FFFFFF;
 }
 .slide3 div:nth-of-type(7){
     left: 1.13rem;
@@ -326,6 +328,7 @@ html,body,.main{
 .slide3 h3:nth-of-type(2) {
     left: 1.32rem;
     top: 1.92rem;
+    color: #F7B487;
 }
 .slide3 p:nth-of-type(4){
     left: 1.1rem;
@@ -337,7 +340,8 @@ html,body,.main{
 }
 .slide3 p:nth-of-type(5){
     left: 0.48rem;
-    top: 3.24rem;
+    top: 3.22rem;
+    color: #FFFFFF;
 }
 .slide3 div:nth-of-type(9){
     left: 0.82rem;
@@ -346,6 +350,7 @@ html,body,.main{
 .slide3 h3:nth-of-type(3){
     left: 0.98rem;
     top: 3.12rem;
+    color: #F7B487;
 }
 .slide3 p:nth-of-type(6){
     left: 0.78rem;
@@ -357,7 +362,8 @@ html,body,.main{
 }
 .slide3 p:nth-of-type(7){
     left: 0.18rem;
-    top: 4.45rem;
+    top: 4.42rem;
+    color: #FFFFFF;
 }
 .slide3 div:nth-of-type(11){
     left: 0.52rem;
@@ -366,6 +372,7 @@ html,body,.main{
 .slide3 h3:nth-of-type(4){
     left: 0.66rem;
     top: 4.29rem;
+    color: #F7B487;
 }
 .slide3 p:nth-of-type(8){
     left: 0.48rem;
@@ -749,7 +756,7 @@ html,body,.main{
     width: 0.24rem;
     height: 0.18rem;
     z-index: 111;
-    -webkit-transform: fadeOutUp 1.2s infinite both;
+    -webkit-animation: fadeOutUp 1.2s infinite both;
     animation: fadeOutUp 1.2s infinite both;
 }
 @keyframes move {
