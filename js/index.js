@@ -29,10 +29,10 @@ var musicRender = (function (){
         init: function(){
             window.setTimeout(function (){
                 song.play();
-                //song.addEventListener('canplay',function (){
+                song.addEventListener('canplay',function (){
                     music.style.opacity = '1';
                     music.className = 'music musicCur';
-                //},false);
+                },false);
             },1000);
             music.addEventListener('click',function (){
                 if(song.paused){
