@@ -92,11 +92,11 @@ html,body,.main{
 .slide2 div:nth-child(6){
     border-radius: 50%;
     background: url("../image/page2_img1.jpg") no-repeat;
-    background-size: 1.28rem,1.28rem;
-    left: 1.03rem;
+    background-size: 1rem,1rem;
+    left: 1.1rem;
     top: 1.55rem;
-    width: 1.28rem;
-    height: 1.28rem;
+    width: 1rem;
+    height: 1rem;
 }
 .slide2 .info{
     width: 100%;
